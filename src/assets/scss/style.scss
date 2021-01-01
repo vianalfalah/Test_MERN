@@ -49,29 +49,27 @@
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: $primary;
-
-    &:hover {
+    &:hover{
         color: $primary;
         text-decoration: none;
     }
 }
 
-header {
+header{
     border-bottom: 1px solid $gray-200;
     width: 100%;
     position: relative;
 
-    .navbar {
+    .navbar{
         height: 80px;
 
         ul.navbar-nav {
             li.nav-item {
-                &.active {
-                    a.nav-link {
+                &.active{
+                    a.nav-link{
                         color: $primary;
                     }
                 }
-
                 a {
                     &.nav-link {
                         letter-spacing: 1px;
